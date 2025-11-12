@@ -5,10 +5,8 @@ This project documents the setup and management of my personal **TrueNAS SCALE h
 ## 🔧 Technologies Used
 - TrueNAS SCALE
 - Tailscale VPN
-- SMB / SSH / NFS
+- SMB & SSH
 - Plex Media Server
-- Caddy (reverse proxy)
-- Linux (Debian-based cloud relay)
 
 ## 🧠 What I Learned
 - Configuring secure peer-to-peer VPNs for remote access
@@ -17,7 +15,7 @@ This project documents the setup and management of my personal **TrueNAS SCALE h
 - Troubleshooting network connectivity and permissions
 - Applying real-world sysadmin and networking principles
 
-## 📈 Future Enhancements
+## 📈 Potential Future Enhancements
 - Add monitoring and alerting
 - Automate server backups with ZFS send/receive
 - Integrate custom DNS and SSL for local services
