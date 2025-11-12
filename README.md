@@ -54,10 +54,9 @@ Laptop/Phone ──► Tailscale VPN ──►  TrueNAS SCALE Server │ Plex Me
 
 ---
 
-## 🛠️ Project Structure
-
-
+<!--## 🛠️ Project Structure
 ---
+-->
 
 ## 🚀 Future Improvements
 
