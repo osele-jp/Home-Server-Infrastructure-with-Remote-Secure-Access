@@ -1,2 +1,23 @@
-# Home-Server-Infrastructure-with-Remote-Secure-Access
-This project documents the setup, configuration, and maintenance of a home server environment using TrueNAS SCALE for networked storage and media streaming. It highlights practical skills in network configuration, remote access (VPNs), file sharing protocols (SMB, SSH), and service deployment for media access (Plex).
+# 🖥️ Home Server Infrastructure with Secure Remote Access
+
+This project documents the setup and management of my personal **TrueNAS SCALE home server**, configured for **secure remote access** and **media streaming**.
+
+## 🔧 Technologies Used
+- TrueNAS SCALE
+- Tailscale VPN
+- SMB / SSH / NFS
+- Plex Media Server
+- Caddy (reverse proxy)
+- Linux (Debian-based cloud relay)
+
+## 🧠 What I Learned
+- Configuring secure peer-to-peer VPNs for remote access
+- Managing SMB shares and ZFS datasets
+- Deploying and maintaining a home media ecosystem
+- Troubleshooting network connectivity and permissions
+- Applying real-world sysadmin and networking principles
+
+## 📈 Future Enhancements
+- Add monitoring and alerting
+- Automate server backups with ZFS send/receive
+- Integrate custom DNS and SSL for local services
