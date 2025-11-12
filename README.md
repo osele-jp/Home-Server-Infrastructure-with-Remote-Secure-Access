@@ -12,7 +12,7 @@ Through this project, I strengthened my understanding of **TCP/IP networking**, 
 I set up a **TrueNAS SCALE server** as a home lab to host files, backups, and media.  
 The system is accessible both locally and remotely through a **Tailscale VPN**, allowing me to connect securely from any device via **SMB** or **SSH**.
 
-For media streaming, I deployed **Plex Media Server** inside a **Kubernetes container** (using TrueNAS SCALE’s built-in K3s).  
+For media streaming, I deployed **Plex Media Server** inside a **Docker container** (using TrueNAS SCALE’s built-im Docker-based system).  
 This provides container isolation, easy maintenance, and consistent performance.
 
 To improve accessibility and fault tolerance, I also set up a **Caddy reverse proxy** on a cloud relay server connected through Tailscale, enabling secure traffic forwarding and TLS encryption.
@@ -26,8 +26,8 @@ To improve accessibility and fault tolerance, I also set up a **Caddy reverse pr
 | Server OS | TrueNAS SCALE |
 | Remote Access | Tailscale (WireGuard-based VPN) |
 | File Sharing | SMB, SSH, NFS |
-| Media Streaming | Plex Media Server (Kubernetes container) |
-| Container Platform | K3s (TrueNAS SCALE Kubernetes) |
+| Media Streaming | Plex Media Server (Docker container) |
+| Container Platform | Docker (TrueNAS SCALE Built-in) |
 | Cloud Relay | Caddy reverse proxy |
 | Storage | ZFS filesystem, snapshots, datasets |
 | Networking Protocols | TCP/IP |
@@ -36,7 +36,7 @@ To improve accessibility and fault tolerance, I also set up a **Caddy reverse pr
 ---
 
 ## 🧩 Network Overview
-Laptop/Phone ──► Tailscale VPN ──►  TrueNAS SCALE Server │ Plex Media Server (Kubernetes)
+Laptop/Phone ──► Tailscale VPN ──►  TrueNAS SCALE Server │ Plex Media Server (Docker)
 
 
 
@@ -46,7 +46,7 @@ Laptop/Phone ──► Tailscale VPN ──►  TrueNAS SCALE Server │ Plex Me
 
 - Configuring **VPN tunnels (Tailscale / WireGuard)** for secure remote access  
 - Managing **SMB shares**, **ZFS datasets**, and **user permissions**  
-- Running **containerized services** in **Kubernetes (K3s)**  
+- Running **containerized services** in **Docker**  
 - Understanding and troubleshooting **networking protocols (TCP/IP, UDP, RDP, SMB)**  
 - Implementing **firewall rules** and **port forwarding** to control access  
 - Monitoring system health and network performance  
@@ -64,7 +64,7 @@ Laptop/Phone ──► Tailscale VPN ──►  TrueNAS SCALE Server │ Plex Me
 - Configure **automated ZFS replication** to a secondary backup server  
 - Experiment with **routing protocols** (BGP and OSPF) in a virtual lab environment  
 - Expand automation scripts for regular system health checks using Python  
-- Deploy additional self-hosted services through Kubernetes and Docker  
+- Deploy additional self-hosted services through Docker  
 
 ---
 
