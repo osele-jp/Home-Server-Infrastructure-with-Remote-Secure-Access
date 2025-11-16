@@ -1,4 +1,4 @@
-# 🖥️ Home Server Infrastructure with Secure Remote Access
+#  Home Server Infrastructure with Secure Remote Access
 
 This project showcases my practical experience with **networking**, **system administration**, and **secure service deployment**.  
 It documents how I designed, configured, and currently maintain a **TrueNAS SCALE home server** for file storage, remote access, and media streaming.  
@@ -7,7 +7,7 @@ Through this project, I strengthened my understanding of **TCP/IP networking**, 
 
 ---
 
-## 🌐 Project Overview
+##  Project Overview
 
 I set up a **TrueNAS SCALE server** as a home lab to host files, backups, and media.  
 The system is accessible both locally and remotely through a **Tailscale VPN**, allowing me to connect securely from any device via **SMB** or **SSH**.
@@ -19,7 +19,7 @@ To improve accessibility and fault tolerance, I also set up a **Caddy reverse pr
 
 ---
 
-## ⚙️ Technologies Used
+##  Technologies Used
 
 | Category | Tools / Protocols |
 |-----------|------------------|
@@ -35,14 +35,14 @@ To improve accessibility and fault tolerance, I also set up a **Caddy reverse pr
 
 ---
 
-## 🧩 Network Overview
+##  Network Overview
 Laptop/Phone ──► Tailscale VPN ──►  TrueNAS SCALE Server │ Plex Media Server (Docker)
 
 
 
 ---
 
-## 🧠 What I Learned
+##  What I Learned
 
 - Configuring **VPN tunnels (Tailscale / WireGuard)** for secure remote access  
 - Managing **SMB shares**, **ZFS datasets**, and **user permissions**  
@@ -58,7 +58,7 @@ Laptop/Phone ──► Tailscale VPN ──►  TrueNAS SCALE Server │ Plex Me
 ---
 -->
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 - Add **Prometheus + Grafana** for advanced monitoring and visualization  
 - Configure **automated ZFS replication** to a secondary backup server  
@@ -68,7 +68,7 @@ Laptop/Phone ──► Tailscale VPN ──►  TrueNAS SCALE Server │ Plex Me
 
 ---
 
-## 📚 Reflection
+##  Reflection
 
 This project has been a key part of my growth as a computer science student interested in **network engineering**.  
 I’ve gained hands-on experience with **real network protocols**, **VPN connectivity**, and **secure system design**, applying theory directly to a functional home infrastructure.
@@ -77,14 +77,14 @@ It also strengthened my ability to balance **technical learning, academics, and 
 
 ---
 
-## 🧾 License
+##  License
 
 This repository is for educational and demonstration purposes only.  
 All configuration examples are generalized for privacy and security.
 
 ---
 
-### ✉️ Contact
+###  Contact
 
 If you’d like to discuss this project, networking concepts, or system setup best practices, feel free to reach out through my GitHub profile.
 
