@@ -32,7 +32,7 @@
     -   Boot from USB and follow installation prompts.
     -   Install the OS on your **internal boot drive**.
 
-4.  After installation, you should see the console setup menu.
+4.  After installation, you should see the console setup menu.\
 ![alt text](ConsoleSetupMenuSCALE.png)
 
 5.  From another device on the same network, open the URL displayed on
@@ -48,9 +48,9 @@ snapshots.
 
 ### Create a Storage Pool
 
-1.  Go to **Storage** in the left sidebar.
+1.  Go to **Storage** in the left sidebar.\
 ![alt text](image.png)
-2.  Click **Create Pool**.
+2.  Click **Create Pool**.\
 ![alt text](image-1.png)
 3.  Name your pool (e.g., `Main`).
 4.  Select a layout:
