@@ -17,7 +17,7 @@
 1.  Download TrueNAS:
 
     -   Navigate to:\
-        **https://www.truenas.com/download-truenas-community-edition/**\
+        https://www.truenas.com/download-truenas-community-edition/ \
         Download the latest version of **TrueNAS SCALE** (may now appear
         as *TrueNAS Community Edition*).
 
