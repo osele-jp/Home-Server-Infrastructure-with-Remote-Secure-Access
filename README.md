@@ -55,7 +55,8 @@ Laptop/Phone ──► Tailscale VPN ──►  TrueNAS SCALE Server │ Plex Me
 ---
 
 <!--## 🛠️ Project Structure
----
+**truenas-initial-and-file-sharing-setup**: Documents the installation and setup of truenas SCALE plus dataset and DMB Share creation 
+--
 -->
 
 ##  Future Improvements
